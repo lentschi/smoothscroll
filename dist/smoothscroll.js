@@ -16,11 +16,6 @@
 
   // polyfill
   function polyfill() {
-    // return when scrollBehavior interface is supported
-    if ('scrollBehavior' in d.documentElement.style) {
-      return;
-    }
-
     /*
      * globals
      */
